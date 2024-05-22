@@ -1,0 +1,8 @@
+const { resolve } = require("path");
+
+module.exports = {
+  "config": resolve(__dirname, "whaticketplus", "config", "database.js"),
+  "modules-path": resolve(__dirname, "whaticketplus", "models"),
+  "migrations-path": resolve(__dirname, "whaticketplus", "database", "migrations"),
+  "seeders-path": resolve(__dirname, "whaticketplus", "database", "seeds")
+};
